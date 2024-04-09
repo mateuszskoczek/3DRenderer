@@ -18,3 +18,7 @@ rotation_z = lambda angle: np.matrix([
     [sin(angle),    cos(angle),     0],
     [0,             0,              1],
 ])
+
+forward_array = np.array([0, 0, 1, 1])
+up_array = np.array([0, 1, 0, 1])
+right_array = np.array([1, 0, 0, 1])
