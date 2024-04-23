@@ -6,7 +6,7 @@ class App:
 
     def __init__(self):
         self.renderer = Renderer(1280, 720)
-        self.renderer.caption = "Virtual camera"
+        self.renderer.caption = "3D Renderer"
 
     def main(self):
         obj_builder1 = ObjectBuilder()
@@ -31,7 +31,7 @@ class App:
         obj_builder1.add_vertices_connection(vd, vh)
         obj_builder1.add_vertices_connection(vc, vg)
         self.renderer.add_object(obj_builder1.build())
-
+        
         obj_builder2 = ObjectBuilder()
         wa = obj_builder2.add_vertex(-2, 0,  2)
         wb = obj_builder2.add_vertex( 2, 0,  2)
