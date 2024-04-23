@@ -51,7 +51,7 @@ class Camera:
         ])
         return matrix
 
-    def to_screen_matrix(self):
+    def screen_matrix(self):
         hw = self.__renderer.window_width / 2
         hh = self.__renderer.window_height / 2
 

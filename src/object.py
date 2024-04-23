@@ -19,7 +19,7 @@ class Object:
         vertices_matrix = vertices_matrix @ self.__renderer.camera.camera_matrix()
         vertices_matrix = vertices_matrix @ self.__renderer.camera.projection_matrix()
         vertices_matrix /= vertices_matrix[:, -1].reshape(-1, 1)
-        vertices_matrix = vertices_matrix @ self.__renderer.camera.to_screen_matrix()
+        vertices_matrix = vertices_matrix @ self.__renderer.camera.screen_matrix()
         vertices_matrix = vertices_matrix[:, :2]
         vertices = {}
         for i in range(len(self.vertices)):
