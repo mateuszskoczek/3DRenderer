@@ -1,6 +1,6 @@
 import numpy as np
 import math as mt
-import src.transformations as tn
+import transformations as tn
 
 class Camera:
     __position: np.ndarray[float]

@@ -1,5 +1,5 @@
-from src.renderer import Renderer
-from src.object_builder import ObjectBuilder
+from renderer import Renderer
+from object_builder import ObjectBuilder
 
 class App:
     renderer : Renderer

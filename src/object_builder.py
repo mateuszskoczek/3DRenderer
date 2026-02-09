@@ -1,5 +1,5 @@
-from src.object import Object
-from src.vertex import Vertex
+from object import Object
+from vertex import Vertex
 
 class ObjectBuilder:
     __vertices: list[Vertex]

@@ -1,8 +1,8 @@
 import pygame as pg
 import numpy as np
 from math import *
-from src.camera import Camera
-from src.object import Object
+from camera import Camera
+from object import Object
 
 class Renderer:
     __clock: pg.time.Clock

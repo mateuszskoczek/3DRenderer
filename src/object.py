@@ -1,7 +1,7 @@
 import numpy as np
 import pygame as pg
 import os
-from src.vertex import Vertex
+from vertex import Vertex
 
 class Object:
     vertices: list[Vertex]
