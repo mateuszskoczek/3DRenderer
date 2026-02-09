@@ -1,10 +1,12 @@
+<p align="center"><img src=".gitea/readme/icon.png"/></p>
+
 <h1 align="center">3D Renderer</h1>
 
 <h3 align="center"><b>A simple 3D renderer that allows you to move around the scene using the keys.</b></h3>
 
 <p align="center">3D Renderer was written using Python and PyGame library. This project was part of "Computer Graphics" course at Warsaw University of Technology</p>
 
-<img align="center" src=".gitea/readme/screenshot.png"/>
+<p align="center"><img src=".gitea/readme/screenshot.png"/></p>
 
 ---
 
@@ -61,3 +63,7 @@ You can define your own scene in `main` method of `App` class in `3d_renderer/ap
 - <kbd>Q</kbd> - Yaw down
 - <kbd>C</kbd> - Roll up
 - <kbd>Z</kbd> - Roll down
+
+## Attribution
+
+- Icon by <a href="icons8.com">Icons8</a>
