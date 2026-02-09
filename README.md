@@ -10,7 +10,7 @@
 
 ---
 
-## Support status
+## Informations
 
 > [!IMPORTANT]  
 > App is no longer maintained, but should work properly
