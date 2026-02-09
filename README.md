@@ -4,11 +4,16 @@
 
 <h3 align="center"><b>A simple 3D renderer that allows you to move around the scene using the keys.</b></h3>
 
-<p align="center">3D Renderer was written using Python and PyGame library. This project was part of "Computer Graphics" course at Warsaw University of Technology. Currently not maintained.</p>
+<p align="center">3D Renderer was written using Python and PyGame library. This project was part of "Computer Graphics" course at Warsaw University of Technology.</p>
 
-<p align="center"><img src=".gitea/readme/screenshot.png"/></p>
+<p align="center"><img width="50%" src=".gitea/readme/screenshot.png"/></p>
 
 ---
+
+## Support status
+
+> [!IMPORTANT]  
+> App is no longer maintained, but should work properly
 
 ## Features
 
