@@ -47,10 +47,10 @@ python 3d_renderer
 
 You can define your own scene in `main` method of `App` class in `3d_renderer/app.py` file.
 
-- Create object builder: `obj_builder1 = ObjectBuilder()`
-- Add as many vertices to the object as you want: `va = obj_builder1.add_vertex(-1, 1,  1)`
-- Connect vertices to make edges: `obj_builder1.add_vertices_connection(va, vb)`
-- Build object and add it to the scene: `self.renderer.add_object(obj_builder1.build())`
+1. Create object builder: `obj_builder1 = ObjectBuilder()`
+2. Add as many vertices to the object as you want: `va = obj_builder1.add_vertex(-1, 1,  1)`
+3. Connect vertices to make edges: `obj_builder1.add_vertices_connection(va, vb)`
+4. Build object and add it to the scene: `self.renderer.add_object(obj_builder1.build())`
 
 **Controls:**
 
