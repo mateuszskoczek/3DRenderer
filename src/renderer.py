@@ -1,5 +1,6 @@
 import pygame as pg
 import numpy as np
+import os
 from math import *
 from camera import Camera
 from object import Object
@@ -73,6 +74,9 @@ class Renderer:
         self.objects.append(object)
 
     def run(self):
+        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icon.png')
+        icon = pg.image.load(icon_path)
+        pg.display.set_icon(icon)
         pg.display.set_caption(self.caption)
         while True:
             for event in pg.event.get():
